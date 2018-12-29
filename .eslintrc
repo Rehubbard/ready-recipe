@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": ["airship", "prettier", "plugin:flowtype/recommended"],
+  "rules": {
+    "flowtype/no-types-missing-file-annotation": 0,
+    "flowtype/space-after-type-colon": 0
+  },
+  "plugins": ["react", "flowtype", "jest"]
+}
